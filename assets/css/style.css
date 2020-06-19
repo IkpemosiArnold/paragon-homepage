@@ -32,6 +32,7 @@ html,body{
     margin: 1.5px 7px 1.5px 1.5px;
     
   }
+
 /* change the background color */
 .navbar-custom {
     background-color: #F1F1F1;
@@ -52,21 +53,7 @@ html,body{
 .current-page{
     color: #E4AF26 !Important;
 }
-.current-page:before {
-    content:'';
-    position: absolute;
-    top:30px;
-    left: 5px;
-    right: 0;
-    bottom:0;
-    margin: 0 auto;
-    width: 0;
-    height: 0;
-    border-top:10px solid black;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom:5px solid transparent;
-}
+
 .nav-black{
     color: black;
 }
@@ -233,4 +220,22 @@ body{
 #wwd-image{
     order: 2;
 }
-    }
+}
+
+@media screen and (min-width: 992px){
+    .current-page:before {
+    content:'';
+    position: absolute;
+    top:30px;
+    left: 5px;
+    right: 0;
+    bottom:0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top:10px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom:5px solid transparent;
+}
+}
