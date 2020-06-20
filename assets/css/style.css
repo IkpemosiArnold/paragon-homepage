@@ -196,7 +196,10 @@ body{
     list-style: none;
     padding-inline-start: 0;
 }
-#social-list li{
+.social-list{
+    padding-inline-start: 0;
+}
+.social-list li{
     list-style: none;
     display: inline;
     padding: 10px 10px 10px 0;
